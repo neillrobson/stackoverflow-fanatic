@@ -4,7 +4,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/connorads/stackoverflow-fanatic"
+    "url": "https://github.com/neillrobson/stackoverflow-fanatic"
   },
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
