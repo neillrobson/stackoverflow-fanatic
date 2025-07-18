@@ -10,7 +10,7 @@ import {
   screenshotElement,
 } from './lib';
 
-(async () => {
+void (async () => {
   const email = env.get('STACKOVERFLOW_EMAIL').required().asString();
   const password = env.get('STACKOVERFLOW_PASSWORD').required().asString();
 
@@ -65,7 +65,7 @@ import {
       (selector: string) =>
         document.querySelector(selector)?.querySelector('.s-badge--label')
           ?.textContent,
-      progressSelector
+      progressSelector,
     );
     console.log('Progress:', text);
     await screenshotElement(page, progressSelector, 'progress.png');

@@ -4,7 +4,7 @@ import {getBadgeNumber, maybeGetBadgeAwardedText} from './lib';
 test.describe('maybeGetBadgeAwardedText', () => {
   test('returns badge awarded text if user has badge', async ({page}) => {
     await page.goto(
-      'https://stackoverflow.com/help/badges/71/enthusiast?userid=4319653'
+      'https://stackoverflow.com/help/badges/71/enthusiast?userid=4319653',
     );
     const awarded = await maybeGetBadgeAwardedText(page);
     test.expect(awarded).toBe('Awarded Jan 31, 2021 at 13:34');
@@ -12,7 +12,7 @@ test.describe('maybeGetBadgeAwardedText', () => {
 
   test('returns undefined if user does not have badge', async ({page}) => {
     await page.goto(
-      'https://stackoverflow.com/help/badges/146/legendary?userid=4319653'
+      'https://stackoverflow.com/help/badges/146/legendary?userid=4319653',
     );
     const awarded = await maybeGetBadgeAwardedText(page);
     test.expect(awarded).toBe(undefined);
