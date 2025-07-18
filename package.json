@@ -12,7 +12,7 @@
     "build/src"
   ],
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=24.0.0"
   },
   "scripts": {
     "start": "node --unhandled-rejections=strict build/src/index.js",
@@ -27,15 +27,15 @@
     "posttest": "npm run lint"
   },
   "devDependencies": {
-    "@playwright/test": "^1.41.1",
-    "@types/node": "^20.11.5",
-    "gts": "^5.2.0",
-    "typescript": "^5.3.3"
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14",
+    "gts": "^6.0.2",
+    "typescript": "^5.8.3"
   },
   "dependencies": {
-    "dotenv": "^16.3.0",
-    "env-var": "^7.4.1",
-    "playwright": "^1.41.1",
-    "simple-git": "^3.22.0"
+    "dotenv": "^17.2.0",
+    "env-var": "^7.5.0",
+    "playwright": "^1.54.1",
+    "simple-git": "^3.28.0"
   }
 }
