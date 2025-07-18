@@ -1,8 +1,8 @@
 # Stack Overflow Fanatic
 
-[![Become a Fanatic](https://github.com/connorads/stackoverflow-fanatic/actions/workflows/fanatic.yml/badge.svg)](https://github.com/connorads/stackoverflow-fanatic/actions/workflows/fanatic.yml)
-[![Tests](https://github.com/connorads/stackoverflow-fanatic/actions/workflows/ci.yml/badge.svg)](https://github.com/connorads/stackoverflow-fanatic/actions/workflows/ci.yml)
-[![MIT License](https://img.shields.io/github/license/connorads/stackoverflow-fanatic)](https://github.com/connorads/stackoverflow-fanatic/blob/master/LICENSE)
+[![Become a Fanatic](https://github.com/neillrobson/stackoverflow-fanatic/actions/workflows/fanatic.yml/badge.svg)](https://github.com/neillrobson/stackoverflow-fanatic/actions/workflows/fanatic.yml)
+[![Tests](https://github.com/neillrobson/stackoverflow-fanatic/actions/workflows/ci.yml/badge.svg)](https://github.com/neillrobson/stackoverflow-fanatic/actions/workflows/ci.yml)
+[![MIT License](https://img.shields.io/github/license/neillrobson/stackoverflow-fanatic)](https://github.com/neillrobson/stackoverflow-fanatic/blob/master/LICENSE)
 
 Earn Stack Overflow's [Fanatic Badge](https://stackoverflow.com/help/badges/83/fanatic) automagically using GitHub Actions 🏆
 
